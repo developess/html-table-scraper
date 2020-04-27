@@ -1,0 +1,8 @@
+{
+  "name": "html-table-scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/developess/html-table-scraper.git",
+  "author": "Jessie Beech <jessie@jessiebeech.com>",
+  "license": "MIT"
+}
