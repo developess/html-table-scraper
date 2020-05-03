@@ -1,3 +1,7 @@
+function trimWhitespace(string) {
+  return string.trim().replace(/\s+/, ' ');
+}
+
 class Table {
   constructor() {
     this.cols = 0;
@@ -20,8 +24,8 @@ class Table {
     }
     const row = [];
     const listLen = list.length;
-    for (let i = 0; i < listLen; i++) { 
-      row[i] = '"' + list[i].textContent.trim() + '"';
+    for (let i = 0; i < listLen; i++) {
+      row[i] = '"' + trimWhitespace(list[i].textContent) + '"';
     }
     this.headers = row;
   }
@@ -33,7 +37,7 @@ class Table {
     const row = [];
     const listLen = list.length;
     for (let i = 0; i < listLen; i++) {
-      row[i] = '"' + list[i].textContent.trim() + '"';
+      row[i] = '"' + trimWhitespace(list[i].textContent) + '"';
     }
     this.data.push(row);
   }
