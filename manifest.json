@@ -21,6 +21,6 @@
     "48": "images/icon_48.png",
     "128": "images/icon_128.png"
   },
-  "permissions": ["activeTab", "storage", "declarativeContent"],
+  "permissions": ["activeTab", "declarativeContent"],
   "manifest_version": 2
 }
