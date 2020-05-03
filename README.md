@@ -1,6 +1,6 @@
 # TableScraper
 
-Chrome extension that converts html tables in web pages to csv files.
+A chrome extension that allows users to download tables in web pages as csv files.
 
 ![screenshot of extension](images/Screenshot1.png)
 
