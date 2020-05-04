@@ -1,7 +1,7 @@
 {
   "name": "TableScraper",
-  "version": "1.0",
-  "description": "Turns website tables into csv files",
+  "version": "1.1",
+  "description": "Allows you to download web tables as .csv files",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
